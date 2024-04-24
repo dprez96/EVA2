@@ -82,6 +82,7 @@ table{
 button{
     border-radius: 4px;
     padding: 1% 5%;
+
 }
 
 .banner{
@@ -94,6 +95,12 @@ button{
     margin: auto;
     width: 100%; 
     max-width: 200px;
+}
+.volver{
+    width: 30%;
+}
+.gracias{
+    text-align: center;
 }
 @media screen and (min-width: 0px) and (max-width: 600px) {
     .grid-container{
@@ -109,6 +116,9 @@ button{
     button{
         padding: 2% 30%;
     }
+    .volver{
+        width: 100%;
+    }
     }          
 @media screen and (min-width: 600px) and (max-width: 900px) {
     .grid-container{
@@ -120,5 +130,8 @@ button{
     }          
     table{
         width: 80%;
+    }
+    .volver{
+        width: 40%;
     }
     }
